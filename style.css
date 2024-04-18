@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:wght@300;400;500&display=swap');
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+.title {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 7px;
+    transform: translate(-10px, 0);
+}
+
+.title img {
+    height: 60px;
+    width: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60vh;
+    margin: 2vh auto;
+    padding: 0vw 2vh 2vh 2vh;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(11, 11, 11, 0.3);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0px 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.8rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #f41828;
+    color: #ffffff;
+    border: none;
+    margin: 12px 0px 0px 0px;
+    padding: 8px 17px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f418279c;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+#gender:focus,
+#dob:focus {
+    outline: none;
+    border: 1.5px solid #f4182746;
+}
+
+#gender {
+    width: 97.33%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8rem;
+    margin: 5px 0px 10px 0px;
+
+}
+
+#dob {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8rem;
+    margin: 5px 0px 10px 0px;
+
+}
+
+.form-group input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    transform: translate(0px, 2.5px);
+}
+
+
+form{
+    width: 80%;
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .container{
+        width: 85%;
+        /* padding-bottom: 3vw; */
+    }
+    
+    }
+
+  
+  
